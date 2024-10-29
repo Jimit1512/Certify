@@ -11,7 +11,7 @@ function App() {
 
   return (
     <div className="App">
-      {!isLoggedIn ? <Login onLogin={handleLogin} /> : <VideoApp />}
+      <VideoApp />
     </div>
   );
 }
